@@ -385,7 +385,7 @@ class DCNPooling(DCNv2Pooling):
                 * mask
             )
         # only roi_align
-<<<<<<< HEAD
+
         return dcn_v2_pooling(input, rois, offset,
                               self.spatial_scale,
                               self.pooled_size,
@@ -395,7 +395,7 @@ class DCNPooling(DCNv2Pooling):
                               self.part_size,
                               self.sample_per_part,
                               self.trans_std)
-=======
+
         return dcn_v2_pooling(
             input,
             rois,
@@ -409,4 +409,4 @@ class DCNPooling(DCNv2Pooling):
             self.sample_per_part,
             self.trans_std,
         )
->>>>>>> 977dfd39b3536ba20baee06d1055d2bd5a5e9593
+
